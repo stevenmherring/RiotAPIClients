@@ -7,7 +7,7 @@ export enum LocalizedNames {
   "MEXICAN" = "es-MX",
   "FRENCH" = "fr-FR",
   "INDONESIA" = "id-ID",
-  "ITALY" = "it-IT", // 400 Unknown locale
+  "ITALY" = "it-IT", // 400 Unknown local
   "JAPAN" = "ja-JP",
   "KOREA" = "ko-KR",
   "POLAND" = "pl-PL",

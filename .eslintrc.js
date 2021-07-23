@@ -4,5 +4,5 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: "module",
   },
-  extends: ["plugin:@typescript-eslint/recommended"],
+  extends: ["plugin:prettier/recommended"],
 };
