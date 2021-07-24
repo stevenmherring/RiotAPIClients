@@ -1,7 +1,7 @@
 {
-  "name": "valorant-api-client",
+  "name": "riot-api-clients",
   "version": "1.0.0",
-  "description": "API Client for RIOT Valorant API",
+  "description": "API Clients for RIOT APIs",
   "main": "index.js",
   "scripts": {
     "test": "jest --collectCoverage",
