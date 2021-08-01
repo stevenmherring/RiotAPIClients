@@ -1,4 +1,4 @@
-import { PUUID } from "../../@types/Account";
+import { PUUID } from "../../../@types/Account";
 import { Ability } from "./Ability";
 import { Damage } from "./Damage";
 import { Economy } from "./Economy";

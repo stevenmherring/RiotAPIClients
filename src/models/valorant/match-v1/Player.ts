@@ -1,4 +1,4 @@
-import { PUUID } from "../../@types/Account";
+import { PUUID } from "../../../@types/Account";
 import { PlayerStats } from "./PlayerStats";
 
 export class Player {

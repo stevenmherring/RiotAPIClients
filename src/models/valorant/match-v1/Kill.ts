@@ -1,4 +1,4 @@
-import { PUUID } from "../../@types/Account";
+import { PUUID } from "../../../@types/Account";
 import { FinishingDamage } from "./FinishingDamage";
 import { PlayerLocations } from "./PlayerLocations";
 

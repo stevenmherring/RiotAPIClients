@@ -1,4 +1,4 @@
-import { Shard } from "../../@types/Account";
+import { Shard } from "../../../@types/Account";
 import { Player } from "./Player";
 
 export class Leaderboard {

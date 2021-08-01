@@ -1,4 +1,4 @@
-import { PublishLocations } from "../../@types/Status";
+import { PublishLocations } from "../../../@types/Status";
 import { Content } from "./Content";
 
 export class Update {
