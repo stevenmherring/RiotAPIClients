@@ -1,4 +1,4 @@
-import { LocalizedNames } from "../mappings/LocalizedNames";
+import { LocalizedNames } from "../../mappings/LocalizedNames";
 
 export class ContentItem {
   name: string;
