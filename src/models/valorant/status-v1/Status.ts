@@ -1,4 +1,4 @@
-import { IncidentSeverity, MaintenanceStatus, Platforms } from "../../@types/Status";
+import { IncidentSeverity, MaintenanceStatus, Platforms } from "../../../@types/Status";
 import { Content } from "./Content";
 import { Update } from "./Update";
 

@@ -1,4 +1,4 @@
-import { PUUID } from "../../@types/Account";
+import { PUUID } from "../../../@types/Account";
 
 export class PlayerLocations {
   puuid: PUUID;
