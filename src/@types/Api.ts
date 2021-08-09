@@ -1,4 +1,6 @@
-export const BaseApiUrl = "https://<region>.api.riotgames.com/<game>/";
+export type ApiCaller = (request: any) => Promise<any>;
+
+export const BaseApiUrl = "https://<region>.api.riotgames.com/<game>";
 
 export enum Game {
   VALORANT = "val",

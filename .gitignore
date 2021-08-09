@@ -1,3 +1,7 @@
-node_modules/
+# Local IDE + Personal
+.vscode/
 notes/
+
+# Build output
+node_modules/
 coverage/
