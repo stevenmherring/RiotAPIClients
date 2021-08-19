@@ -1,1 +1,1 @@
-{ "extends": "@tsconfig/node14/tsconfig.json" }
+{ "extends": "@tsconfig/node14/tsconfig.json", "esModuleInterop": true }
