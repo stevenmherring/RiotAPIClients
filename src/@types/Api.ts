@@ -1,4 +1,14 @@
-export type ApiCaller = (request: any) => Promise<any>;
+export type ApiCaller = (params: CallerParams) => Promise<any>;
+
+export interface CallerParams extends CallerOptions {
+  url: string;
+  endpoint: string;
+  apiKey: string;
+}
+
+export interface CallerOptions {
+  config?: any;
+}
 
 export const BaseApiUrl = "https://<region>.api.riotgames.com/<game>";
 

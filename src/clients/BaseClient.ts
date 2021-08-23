@@ -1,4 +1,4 @@
-import { ApiCaller, Game, Region } from "../@types/Api";
+import { ApiCaller, CallerParams, Game, Region } from "../@types/Api";
 import { getApiUrl } from "../utils/ApiUtils";
 
 export class BaseClient {
@@ -6,7 +6,7 @@ export class BaseClient {
   protected readonly apiURL: string;
   protected readonly apiKey: string | undefined;
   protected readonly callerConfig: any;
-  protected callerParams: {};
+  protected callerParams: Omit<CallerParams, "endpoint">;
 
   constructor(readonly params: BaseClientParams) {
     this.caller = params.caller;
@@ -18,7 +18,7 @@ export class BaseClient {
       throw new Error("No API KEY Provided. Can not initialize API Client");
     }
 
-    this.callerParams = { url: this.apiURL, config: this.callerConfig };
+    this.callerParams = { url: this.apiURL, apiKey: this.apiKey, config: this.callerConfig };
 
     console.debug("Base API Client initialized!");
   }

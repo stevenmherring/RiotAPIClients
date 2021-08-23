@@ -4,7 +4,8 @@ module.exports = {
   testEnvironment: "node",
   collectCoverage: true,
   coverageDirectory: "coverage",
-  coveragePathIgnorePatterns: ["/node_modules/", "src/mappings/", "src/models/"],
+  collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}", "!<rootDir>/node_modules/"],
+  coveragePathIgnorePatterns: ["src/mappings/", "src/models/", "src/@types"],
   coverageThreshold: {
     global: {
       branches: 90,
